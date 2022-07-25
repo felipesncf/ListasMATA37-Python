@@ -1,0 +1,7 @@
+entrada = input()
+a = int(entrada.split(' ')[0])
+b = int(entrada.split(' ')[1])
+c = int(entrada.split(' ')[2])
+d = int(entrada.split(' ')[3])
+e = int(entrada.split(' ')[4])
+print(a - (b + c + d + e))

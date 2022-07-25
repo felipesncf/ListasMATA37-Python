@@ -1,0 +1,8 @@
+entrada1 = input()
+entrada2 = input()
+t = int(entrada1.split(' ')[0])
+d = int(entrada1.split(' ')[1])
+v = int(entrada2.split(' ')[0])
+p = int(entrada2.split(' ')[1])
+quantPedagio = int(t/d)
+print(int((t*v) + (quantPedagio*p)))
